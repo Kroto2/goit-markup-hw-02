@@ -21,6 +21,8 @@ body {
     font-family: Raleway;
     font-size: 24px;
     font-weight: 700;
+    line-height: 1.173;
+    text-decoration: none;
 }
 .Logo>span {
     color:blue;
@@ -39,6 +41,7 @@ body {
     font-weight: 500;
     letter-spacing: 00.02em;
     text-decoration:none;
+    line-height: 1.172;
 }
 .contact:hover, .contact:focus {
     color:var(--blue)
@@ -58,25 +61,57 @@ body {
 
 }
 .main-button{
-    background-color: var(--blue);
-    color:var(--white);
     cursor: pointer;
     font-size:16px ;
     font-weight:700 ;
     width: 200px;
     height: 50px;
+    text-align: center;
+    line-height: 1.875;
 }
 .little-header{
     font-weight: 700;
-    color:var(--header-black)
+    color:var(--header-black);
+    line-height: 1.172;
 }
 .secondary-header{
     font-weight: 700;
     font-size: 36px;
-    color:var(--header-black)
+    color:var(--header-black);
+    line-height:1.171;
 }
 .name-header{
     font-weight: 500;
     font-size:16px ;
-    color:var(--header-black)
+    color:var(--header-black);
+    line-height: 1.171;
+}
+.nav-button{
+    cursor: pointer;
+    font-size:16px ;
+    font-weight:500 ;
+    width: 120px;
+    height: 38px;
+    text-align:center;
+    line-height: 1.625;
+}
+.main-button:hover, .main-button:focus{
+   background-color:var(--blue);
+   color:var(--white)
+}
+.nav-button:hover, .nav-button:focus{
+    background-color: var(--blue);
+    color:var(--white);
+}
+.little-picture-header {
+    font-weight: 700;
+    color: var(--header-black);
+    letter-spacing: 00.06em;
+    line-height: 2;
+}
+.little-header-text{
+    line-height: 1.714;
+}
+.card-text{
+    line-height: 1.875;
 }
