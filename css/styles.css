@@ -70,7 +70,6 @@ body {
     background-color: var(--blue);
     border: none;
     }
-}
 .little-header{
     font-weight: 700;
     color:var(--header-black);
